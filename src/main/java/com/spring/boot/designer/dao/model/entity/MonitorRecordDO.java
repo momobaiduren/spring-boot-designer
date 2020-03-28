@@ -27,7 +27,7 @@ public class MonitorRecordDO {
     /**
     * 单据id
     */
-    private String errBillNo;
+    private String errBillId;
     
     private String interfaceName;
     

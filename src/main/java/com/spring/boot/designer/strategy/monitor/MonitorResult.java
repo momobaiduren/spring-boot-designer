@@ -18,4 +18,5 @@ public class MonitorResult {
         this.errMsg = errMsg;
         this.result = result;
     }
+
 }

@@ -1,5 +1,7 @@
-package com.spring.boot.designer.strategy.monitor;
+package com.spring.boot.designer.strategy;
 
+import com.spring.boot.designer.strategy.monitor.MonitorInterface;
+import com.spring.boot.designer.strategy.monitor.MonitorResult;
 import org.springframework.stereotype.Component;
 
 import java.util.Set;

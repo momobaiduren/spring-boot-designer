@@ -6,4 +6,4 @@
  * 不需要每个service都重新定义相同的查询导出逻辑等公共的信息，简单的模型不同导致重复造轮子
  *
  */
-package com.spring.boot.designer.templet;
+package com.spring.boot.designer.template;

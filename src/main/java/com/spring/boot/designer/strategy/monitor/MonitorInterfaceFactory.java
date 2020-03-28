@@ -21,6 +21,7 @@ public class MonitorInterfaceFactory {
     public static MonitorInterface newMonitor(MonitorEnum monitorEnum) {
         final MonitorInterface monitorInterface = MONITOR_INTERFACE_MAP.get(monitorEnum);
         if (Objects.isNull(monitorInterface)) {
+
             throw new RuntimeException("监控接口未注册");
         }
         return monitorInterface;
