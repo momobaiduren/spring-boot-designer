@@ -1,4 +1,4 @@
-package com.spring.boot.designer.event;
+package com.spring.boot.designer.observer;
 import java.util.EventListener;
 
 /**
