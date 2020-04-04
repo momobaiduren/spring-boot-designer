@@ -7,7 +7,7 @@ import java.util.EventObject;
  *
  * @author zhanglong and since  2019/12/30  4:44
  */
-public class EventSource<T> extends EventObject {
+public abstract class EventSource<T> extends EventObject {
 
     /**
      * Constructs a prototypical Event.
@@ -15,7 +15,13 @@ public class EventSource<T> extends EventObject {
      * @param source The object on which the Event initially occurred.
      * @throws IllegalArgumentException if source is null.
      */
-    public EventSource( T source ) {
+    public EventSource(T source) {
         super(source);
     }
+
+    @Override
+    public T getSource() {
+        return (T) super.getSource();
+    }
+
 }
